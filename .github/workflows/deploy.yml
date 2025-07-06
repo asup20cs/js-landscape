@@ -3,7 +3,7 @@ name: Deploy Landscape to GitHub Pages
 on:
   push:
     branches:
-      - main # Trigger this workflow when changes are pushed to the 'main' branch
+      - master # Trigger this workflow when changes are pushed to the 'main' branch
   workflow_dispatch: # Allows you to manually trigger the workflow from the Actions tab
 
 jobs:
@@ -26,7 +26,8 @@ jobs:
 
       - name: Install landscape2 globally and Build
         run: |
-          npm install -g landscape2@latest # Installs the latest version of landscape2 globally on the runner
+          curl --proto '=https' --tlsv1.2 -LsSf https://github.com/cncf/landscape2/releases/download/v1.0.0/landscape2-installer.sh | sh
+          source $HOME/.cargo/env
           landscape2 build \
             --data-file data.yml \
             --settings-file settings.yml \
