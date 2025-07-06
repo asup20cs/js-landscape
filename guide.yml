@@ -1,0 +1,147 @@
+# Landscape2 guide
+#
+# This file allows defining the content of the landscape guide.
+#
+# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/guide.yml
+
+categories:
+  - category: "Frontend Frameworks"
+    content: |
+      Frameworks and UI libraries for building user interfaces in the browser.
+    subcategories:
+      - subcategory: "Frameworks"
+        content: |
+          - **React**: A JavaScript library for building user interfaces.
+          - **Vue.js**: The progressive JavaScript framework.
+          - **Angular**: The web development framework for building the future.
+          - **Svelte**: Cybernetically enhanced web apps.
+          - **Aurelia**: A modern, open-source JavaScript framework for building web, mobile, and desktop applications.
+          - **Cycle.js**: A functional and reactive JavaScript framework for predictable code.
+          - **Dojo Toolkit**: A JavaScript toolkit that saves you time and scales with your development process.
+          - **Dojo**: A progressive framework for modern web apps.
+          - **Flight.js**: An event-driven web framework, from Twitter.
+          - **GWT**: A development toolkit for building and optimizing complex browser-based applications.
+          - **htmx**: High power tools for HTML.
+      - subcategory: "UI Libraries"
+        content: |
+          - **Alpine.js**: A rugged, minimal framework for composing JavaScript behavior in your markup.
+          - **Dropzone.js**: A light weight JavaScript library that turns an HTML element into a dropzone.
+          - **Glimmer.js**: A fast and lightweight UI component library.
+          - **Derby**: A full-stack, model-view-controller (MVC) framework for creating modern, real-time, collaborative web applications.
+          - **Hyperapp**: A tiny JavaScript library for building web applications.
+
+  - category: "Backend Frameworks"
+    content: |
+      Frameworks for building server-side applications and APIs.
+    subcategories:
+      - subcategory: "Frameworks"
+        content: |
+          - **Express.js**: Fast, unopinionated, minimalist web framework for Node.js.
+          - **Hono**: A small, simple, and ultrafast web framework for the Edges.
+
+  - category: "Runtimes"
+    content: |
+      JavaScript and TypeScript runtimes and engines.
+    subcategories:
+      - subcategory: "Runtimes"
+        content: |
+          - **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine.
+          - **Bun**: A fast, all-in-one JavaScript runtime.
+          - **Deno**: A modern runtime for JavaScript and TypeScript.
+          - **Hermes**: A JavaScript engine optimized for running React Native apps on Android.
+
+  - category: "Mobile Frameworks"
+    content: |
+      Frameworks for building mobile applications using JavaScript and TypeScript.
+    subcategories:
+      - subcategory: "Frameworks"
+        content: |
+          - **React Native**: A framework for building native apps with React.
+          - **Capacitor.js**: An open-source native runtime for building Web Native apps.
+          - **Cordova**: A mobile application development framework.
+
+  - category: "Full-stack Frameworks"
+    content: |
+      Frameworks that support both frontend and backend development.
+    subcategories:
+      - subcategory: "Frameworks"
+        content: |
+          - **Next.js**: The React framework for production.
+          - **Gatsby**: The fastest frontend for the headless web.
+          - **Fresh**: A next generation web framework, built for speed, reliability, and simplicity.
+
+  - category: "Build Tools"
+    content: |
+      Tools for building, bundling, and optimizing JavaScript and TypeScript projects.
+    subcategories:
+      - subcategory: "Bundlers"
+        content: |
+          - **Vite**: Next generation frontend tooling. It's fast!
+          - **esbuild**: An extremely fast JavaScript bundler and minifier.
+          - **Parcel**: The zero configuration build tool for the web.
+          - **Webpack**: A static module bundler for modern JavaScript applications.
+          - **Rollup**: A module bundler for JavaScript which compiles small pieces of code into something larger and more complex.
+
+  - category: "Testing Libraries"
+    content: |
+      Libraries and frameworks for testing JavaScript and TypeScript code.
+    subcategories:
+      - subcategory: "Frameworks"
+        content: |
+          - **Cypress**: Fast, easy and reliable testing for anything that runs in a browser.
+          - **Playwright**: A framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
+          - **Jest**: A delightful JavaScript Testing Framework with a focus on simplicity.
+          - **Mocha**: A feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun.
+          - **Jasmine**: A behavior-driven development framework for testing JavaScript code.
+          - **Chai**: A BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.
+
+  - category: "Languages"
+    content: |
+      Languages that compile to or extend JavaScript.
+    subcategories:
+      - subcategory: "Languages"
+        content: |
+          - **ClojureScript**: A compiler for Clojure that targets JavaScript.
+          - **CoffeeScript**: A little language that compiles into JavaScript.
+
+  - category: "Libraries"
+    content: |
+      General-purpose JavaScript libraries.
+    subcategories:
+      - subcategory: "Libraries"
+        content: |
+          - **Axios**: A promise-based HTTP client for the browser and Node.js.
+          - **Chart.js**: Simple, clean and engaging charts for designers and developers.
+          - **D3.js**: A JavaScript library for manipulating documents based on data.
+          - **Effector**: A business logic layer for JavaScript applications.
+          - **Greensock**: A JavaScript library for building high-performance animations that work in every major browser.
+          - **Highcharts**: A JavaScript charting library that allows you to create interactive charts for your web applications.
+
+  - category: "Web3"
+    content: |
+      Libraries for blockchain and decentralized application development.
+    subcategories:
+      - subcategory: "Libraries"
+        content: |
+          - **Ethers.js**: A complete Ethereum wallet implementation and utilities in JavaScript (and TypeScript).
+          - **Fluxxor**: A set of tools to facilitate building JavaScript data layers using the Flux architecture.
+          - **Danfo.js**: A JavaScript library for data manipulation and analysis.
+
+  - category: "ORM"
+    content: |
+      Object-Relational Mapping libraries for JavaScript and TypeScript.
+    subcategories:
+      - subcategory: "ORM"
+        content: |
+          - **Drizzle**: A TypeScript ORM that feels like writing SQL.
+
+  - category: "Tooling"
+    content: |
+      Tools for documentation and type checking in JavaScript and TypeScript projects.
+    subcategories:
+      - subcategory: "Documentation"
+        content: |
+          - **ESDoc**: A documentation generator for JavaScript.
+      - subcategory: "Type Checkers"
+        content: |
+          - **Flow**: A static type checker for JavaScript.
