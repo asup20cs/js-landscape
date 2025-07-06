@@ -1,0 +1,44 @@
+name: Deploy Landscape to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Trigger this workflow when changes are pushed to the 'main' branch
+  workflow_dispatch: # Allows you to manually trigger the workflow from the Actions tab
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest # Uses a fresh Ubuntu virtual machine for the job
+
+    permissions:
+      contents: write # Needed to checkout code and potentially push to a branch
+      pages: write # Needed to deploy to GitHub Pages
+      id-token: write # Needed for OIDC authentication with GitHub Pages
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4 # Action to check out your repository code
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18" # Recommended Node.js version for landscape2 (or check its docs for compatibility)
+
+      - name: Install landscape2 globally and Build
+        run: |
+          npm install -g landscape2@latest # Installs the latest version of landscape2 globally on the runner
+          landscape2 build \
+            --data-file data.yml \
+            --settings-file settings.yml \
+            --guide-file guide.yml \
+            --logos-path logos \
+            --output-dir build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "./build" # This is the directory that contains your built static site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 # This action deploys the artifact to GitHub Pages
