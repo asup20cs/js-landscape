@@ -1,0 +1,42 @@
+# Landscape2 games data
+#
+# This file contains the data that will be used in the landscape games.
+#
+# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/games.yml
+
+quiz:
+  questions:
+    - title: "Which of the following is a JavaScript ORM?"
+      options:
+        - item: Drizzle
+          correct: true
+        - item: Axios
+        - item: Vite
+
+    - title: "Which tool is used for documentation generation?"
+      options:
+        - item: ESDoc
+          correct: true
+        - item: Flow
+        - item: Cypress
+
+    - title: "Which of these is a JavaScript bundler?"
+      options:
+        - item: Rollup
+          correct: true
+        - item: Drizzle
+        - item: Highcharts
+
+    - title: "Which library is used for data visualization?"
+      options:
+        - item: Chart.js
+          correct: true
+        - item: Flow
+        - item: Ethers.js
+
+    - title: "Which of the following is a static type checker for JavaScript?"
+      options:
+        - item: Flow
+          correct: true
+        - item: Cypress
+        - item: Danfo.js
