@@ -1,0 +1,377 @@
+# Landscape2 data
+#
+# This file contains the data that will be used to generate the landscape.
+#
+# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
+
+categories:
+  - name: Frontend Frameworks
+    subcategories:
+      - name: Frameworks
+        items:
+          - name: React
+            description: A JavaScript library for building user interfaces.
+            homepage_url: https://react.dev/
+            logo: react.svg
+            repo_url: https://github.com/facebook/react
+            twitter:
+          - name: Vue.js
+            description: The progressive JavaScript framework.
+            homepage_url: https://vuejs.org/
+            logo: vue.svg
+            repo_url: https://github.com/vuejs/vue
+            twitter: https://twitter.com/vuejs
+          - name: Angular
+            description: The web development framework for building the future.
+            homepage_url: https://angular.io/
+            logo: angular-icon.svg
+            repo_url: https://github.com/angular/angular
+            twitter: https://twitter.com/googledevs
+          - name: Svelte
+            description: Cybernetically enhanced web apps.
+            homepage_url: https://svelte.dev/
+            logo: svelte.svg
+            repo_url: https://github.com/sveltejs/svelte
+            twitter: https://twitter.com/sveltesociety
+          - name: Aurelia
+            description: A modern, open-source JavaScript framework for building web, mobile, and desktop applications.
+            homepage_url: https://aurelia.io/
+            logo: aurelia.svg
+            repo_url: https://github.com/aurelia/aurelia
+            twitter:
+          - name: Cycle.js
+            description: A functional and reactive JavaScript framework for predictable code.
+            homepage_url: https://cycle.js.org/
+            logo: cyclejs.svg
+            repo_url: https://github.com/cyclejs/cyclejs
+            twitter:
+          - name: Dojo Toolkit
+            description: A JavaScript toolkit that saves you time and scales with your development process.
+            homepage_url: https://dojotoolkit.org/
+            logo: dojo-toolkit.svg
+            repo_url: https://github.com/dojo/dojo
+            twitter: https://twitter.com/dojo
+          - name: Dojo
+            description: A progressive framework for modern web apps.
+            homepage_url: https://dojo.io/
+            logo: dojo.svg
+            repo_url: https://github.com/dojo/framework
+            twitter: https://twitter.com/dojo
+          - name: Flight.js
+            description: An event-driven web framework, from Twitter.
+            homepage_url: https://flightjs.github.io/
+            logo: flight.svg
+            repo_url: https://github.com/flightjs/flight
+            twitter: https://twitter.com/flightjs
+          - name: GWT
+            description: A development toolkit for building and optimizing complex browser-based applications.
+            homepage_url: http://www.gwtproject.org/
+            logo: gwt.svg
+            repo_url: https://github.com/gwtproject/gwt
+            twitter:
+          - name: htmx
+            description: High power tools for HTML.
+            homepage_url: https://htmx.org/
+            logo: htmx.svg
+            repo_url: https://github.com/bigskysoftware/htmx
+            twitter: https://twitter.com/htmx_org
+      - name: UI Libraries
+        items:
+          - name: Alpine.js
+            description: A rugged, minimal framework for composing JavaScript behavior in your markup.
+            homepage_url: https://alpinejs.dev/
+            logo: alpinejs.svg
+            repo_url: https://github.com/alpinejs/alpine
+            twitter: https://twitter.com/alpine_js
+          - name: Dropzone.js
+            description: A light weight JavaScript library that turns an HTML element into a dropzone.
+            homepage_url: https://www.dropzone.dev/
+            logo: dropzone.svg
+            repo_url: https://github.com/dropzone/dropzone
+            twitter:
+          - name: Glimmer.js
+            description: A fast and lightweight UI component library.
+            homepage_url: https://glimmerjs.com/
+            logo: glimmerjs.svg
+            repo_url: https://github.com/glimmerjs/glimmer.js
+            twitter:
+          - name: Derby
+            description: A full-stack, model-view-controller (MVC) framework for creating modern, real-time, collaborative web applications.
+            homepage_url: https://derbyjs.com/
+            logo: derby.svg
+            repo_url: https://github.com/derbyjs/derby
+            twitter:
+          - name: Hyperapp
+            description: A tiny JavaScript library for building web applications.
+            homepage_url: https://github.com/jorgebucaran/hyperapp
+            logo: hyperapp.svg
+            repo_url: https://github.com/jorgebucaran/hyperapp
+            twitter: https://twitter.com/hyperappJS
+  - name: Backend Frameworks
+    subcategories:
+      - name: Frameworks
+        items:
+          - name: Express.js
+            description: Fast, unopinionated, minimalist web framework for Node.js.
+            homepage_url: https://expressjs.com/
+            logo: express.svg
+            repo_url: https://github.com/expressjs/express
+            twitter: https://twitter.com/nodejs
+          - name: Hono
+            description: A small, simple, and ultrafast web framework for the Edges.
+            homepage_url: https://hono.dev/
+            logo: hono.svg
+            repo_url: https://github.com/honojs/hono
+            twitter: https://twitter.com/honojs
+  - name: Runtimes
+    subcategories:
+      - name: Runtimes
+        items:
+          - name: Node.js
+            description: A JavaScript runtime built on Chrome's V8 JavaScript engine.
+            homepage_url: https://nodejs.org/
+            logo: nodejs-icon-alt.svg
+            repo_url: https://github.com/nodejs/node
+            twitter: https://twitter.com/openjsf
+          - name: Bun
+            description: A fast, all-in-one JavaScript runtime.
+            homepage_url: https://bun.sh/
+            logo: bun.svg
+            repo_url: https://github.com/oven-sh/bun
+            twitter:
+          - name: Deno
+            description: A modern runtime for JavaScript and TypeScript.
+            homepage_url: https://deno.com/
+            logo: deno.svg
+            repo_url: https://github.com/denoland/deno
+            twitter: https://twitter.com/deno_land
+          - name: Hermes
+            description: A JavaScript engine optimized for running React Native apps on Android.
+            homepage_url: https://hermesengine.dev/
+            logo: hermes.svg
+            repo_url: https://github.com/facebook/hermes
+            twitter: https://twitter.com/reactnative
+  - name: Mobile Frameworks
+    subcategories:
+      - name: Frameworks
+        items:
+          - name: React Native
+            description: A framework for building native apps with React.
+            homepage_url: https://reactnative.dev/
+            logo: react.svg
+            repo_url: https://github.com/facebook/react-native
+            twitter: https://twitter.com/reactjs
+          - name: Capacitor.js
+            description: An open-source native runtime for building Web Native apps.
+            homepage_url: https://capacitorjs.com/
+            logo: capacitorjs-icon.svg
+            repo_url: https://github.com/ionic-team/capacitor
+            twitter: https://twitter.com/capacitorjs
+          - name: Cordova
+            description: A mobile application development framework.
+            homepage_url: https://cordova.apache.org/
+            logo: cordova.svg
+            repo_url: https://github.com/apache/cordova
+            twitter: https://twitter.com/apachecordova
+  - name: Full-stack Frameworks
+    subcategories:
+      - name: Frameworks
+        items:
+          - name: Next.js
+            description: The React framework for production.
+            homepage_url: https://nextjs.org/
+            logo: nextjs.svg
+            repo_url: https://github.com/vercel/next.js
+            twitter:
+          - name: Gatsby
+            description: The fastest frontend for the headless web.
+            homepage_url: https://www.gatsbyjs.com/
+            logo: gatsby.svg
+            repo_url: https://github.com/gatsbyjs/gatsby
+            twitter: https://twitter.com/gatsbyjs
+          - name: Fresh
+            description: A next generation web framework, built for speed, reliability, and simplicity.
+            homepage_url: https://fresh.deno.dev
+            logo: fresh.svg
+            repo_url: https://github.com/denoland/fresh
+            twitter:
+  - name: Build Tools
+    subcategories:
+      - name: Bundlers
+        items:
+          - name: Vite
+            description: Next generation frontend tooling. It's fast!
+            homepage_url: https://vitejs.dev/
+            logo: vitejs.svg
+            repo_url: https://github.com/vitejs/vite
+            twitter: https://twitter.com/vite_js
+          - name: esbuild
+            description: An extremely fast JavaScript bundler and minifier.
+            homepage_url: https://esbuild.github.io/
+            logo: esbuild.svg
+            repo_url: https://github.com/evanw/esbuild
+            twitter:
+          - name: Parcel
+            description: The zero configuration build tool for the web.
+            homepage_url: https://parceljs.org/
+            logo: parcel.svg
+            repo_url: https://github.com/parcel-bundler/parcel
+            twitter:
+          - name: Webpack
+            description: A static module bundler for modern JavaScript applications.
+            homepage_url: https://webpack.js.org/
+            logo: webpack.svg
+            repo_url: https://github.com/webpack/webpack
+            twitter:
+          - name: Rollup
+            description: A module bundler for JavaScript which compiles small pieces of code into something larger and more complex.
+            homepage_url: https://rollupjs.org/
+            logo: rollupjs.svg
+            repo_url: https://github.com/rollup/rollup
+            twitter: https://twitter.com/RollupJS
+  - name: Testing Libraries
+    subcategories:
+      - name: Frameworks
+        items:
+          - name: Cypress
+            description: Fast, easy and reliable testing for anything that runs in a browser.
+            homepage_url: https://www.cypress.io/
+            logo: cypress-icon.svg
+            repo_url: https://github.com/cypress-io/cypress
+            twitter:
+          - name: Playwright
+            description: A framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
+            homepage_url: https://playwright.dev/
+            logo: playwright.svg
+            repo_url: https://github.com/microsoft/playwright
+            twitter: https://twitter.com/MSDev
+          - name: Jest
+            description: A delightful JavaScript Testing Framework with a focus on simplicity.
+            homepage_url: https://jestjs.io/
+            logo: jest.svg
+            repo_url: https://github.com/jestjs/jest
+            twitter:
+          - name: Mocha
+            description: A feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun.
+            homepage_url: https://mochajs.org/
+            logo: mocha.svg
+            repo_url: https://github.com/mochajs/mocha
+            twitter:
+          - name: Jasmine
+            description: A behavior-driven development framework for testing JavaScript code.
+            homepage_url: https://jasmine.github.io/
+            logo: jasmine.svg
+            repo_url: https://github.com/jasmine/jasmine
+            twitter: https://twitter.com/JasmineBDD
+          - name: Chai
+            description: A BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.
+            homepage_url: https://www.chaijs.com/
+            logo: chai.svg
+            repo_url: https://github.com/chaijs/chai
+            twitter:
+  - name: Languages
+    subcategories:
+      - name: Languages
+        items:
+          - name: ClojureScript
+            description: A compiler for Clojure that targets JavaScript.
+            homepage_url: https://clojurescript.org/
+            logo: cljs.svg
+            repo_url: https://github.com/clojure/clojurescript
+            twitter:
+          - name: CoffeeScript
+            description: A little language that compiles into JavaScript.
+            homepage_url: https://coffeescript.org/
+            logo: coffeescript.svg
+            repo_url: https://github.com/jashkenas/coffeescript
+            twitter:
+  - name: Libraries
+    subcategories:
+      - name: Libraries
+        items:
+          - name: Axios
+            description: A promise-based HTTP client for the browser and Node.js.
+            homepage_url: https://axios-http.com/
+            logo: axios.svg
+            repo_url: https://github.com/axios/axios
+            twitter:
+          - name: Chart.js
+            description: Simple, clean and engaging charts for designers and developers.
+            homepage_url: https://www.chartjs.org/
+            logo: chartjs.svg
+            repo_url: https://github.com/chartjs/Chart.js
+            twitter:
+          - name: D3.js
+            description: A JavaScript library for manipulating documents based on data.
+            homepage_url: https://d3js.org/
+            logo: d3.svg
+            repo_url: https://github.com/d3/d3
+            twitter:
+          - name: Effector
+            description: A business logic layer for JavaScript applications.
+            homepage_url: https://effector.dev/
+            logo: effector.svg
+            repo_url: https://github.com/effector/effector
+            twitter: https://twitter.com/effectorjs
+          - name: Greensock
+            description: A JavaScript library for building high-performance animations that work in every major browser.
+            homepage_url: https://gsap.com/
+            logo: greensock-icon.svg
+            repo_url: https://github.com/greensock/GSAP
+            twitter: https://twitter.com/GreenSock
+          - name: Highcharts
+            description: A JavaScript charting library that allows you to create interactive charts for your web applications.
+            homepage_url: https://www.highcharts.com/
+            logo: highcharts.svg
+            repo_url: https://github.com/highcharts/highcharts
+            twitter: https://twitter.com/Highcharts
+  - name: Web3
+    subcategories:
+      - name: Libraries
+        items:
+          - name: Ethers.js
+            description: A complete Ethereum wallet implementation and utilities in JavaScript (and TypeScript).
+            homepage_url: https://ethers.io/
+            logo: ethers.svg
+            repo_url: https://github.com/ethers-io/ethers.js
+            twitter: https://twitter.com/ethersproject
+          - name: Fluxxor
+            description: A set of tools to facilitate building JavaScript data layers using the Flux architecture.
+            homepage_url: http://fluxxor.com/
+            logo: fluxxor.svg
+            repo_url: https://github.com/BinaryMuse/fluxxor
+            twitter:
+          - name: Danfo.js
+            description: A JavaScript library for data manipulation and analysis.
+            homepage_url: https://danfo.jsdata.org/
+            logo: danfo.svg
+            repo_url: https://github.com/danfojs/danfojs
+            twitter:
+  - name: ORM
+    subcategories:
+      - name: ORM
+        items:
+          - name: Drizzle
+            description: A TypeScript ORM that feels like writing SQL.
+            homepage_url: https://orm.drizzle.team/
+            logo: drizzle.svg
+            repo_url: https://github.com/drizzle-team/drizzle-orm
+            twitter: https://twitter.com/DrizzleOrm
+  - name: Tooling
+    subcategories:
+      - name: Documentation
+        items:
+          - name: ESDoc
+            description: A documentation generator for JavaScript.
+            homepage_url: https://esdoc.org/
+            logo: esdoc.svg
+            repo_url: https://github.com/esdoc/esdoc
+            twitter: https://twitter.com/h13i32maru
+      - name: Type Checkers
+        items:
+          - name: Flow
+            description: A static type checker for JavaScript.
+            homepage_url: https://flow.org/
+            logo: flow.svg
+            repo_url: https://github.com/facebook/flow
+            twitter: https://twitter.com/flowtype
