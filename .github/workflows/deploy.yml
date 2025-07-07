@@ -1,9 +1,6 @@
 name: Deploy Landscape to GitHub Pages
 
-on:
-  push:
-    branches:
-      - master # Trigger this workflow when changes are pushed to the 'main' branch
+on: # Trigger this workflow when changes are pushed to the 'main' branch
   workflow_dispatch: # Allows you to manually trigger the workflow from the Actions tab
 
 jobs:
