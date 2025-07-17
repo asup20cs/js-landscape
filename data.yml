@@ -75,6 +75,48 @@ categories:
             logo: htmx.svg
             repo_url: https://github.com/bigskysoftware/htmx
             twitter: https://twitter.com/htmx_org
+          - name: Marionette
+            description: The Backbone framework.
+            homepage_url: https://marionettejs.com/
+            logo: marionette.svg
+            repo_url: https://github.com/marionettejs/backbone.marionette
+            twitter: https://twitter.com/marionettejs
+          - name: Meteor
+            description: An open source platform for web, mobile, and desktop.
+            homepage_url: https://www.meteor.com/
+            logo: meteor.svg
+            repo_url: https://github.com/meteor/meteor
+            twitter: https://twitter.com/meteorjs
+          - name: Microcosm
+            description: State management for ambitious user interfaces.
+            homepage_url: https://github.com/vigetlabs/microcosm
+            logo: microcosm.svg
+            repo_url: https://github.com/vigetlabs/microcosm
+            twitter:
+          - name: Mithril
+            description: A modern client-side JavaScript framework for building Single Page Applications.
+            homepage_url: https://mithril.js.org/
+            logo: mithril.svg
+            repo_url: https://github.com/MithrilJS/mithril.js
+            twitter: https://twitter.com/MithrilJS
+          - name: MobX
+            description: Simple, scalable state management.
+            homepage_url: https://mobx.js.org/
+            logo: mobx.svg
+            repo_url: https://github.com/mobxjs/mobx
+            twitter: https://twitter.com/mobxjs
+          - name: Moon
+            description: A minimal, blazing fast UI library.
+            homepage_url: https://moonjs.org/
+            logo: moon.svg
+            repo_url: https://github.com/kbrsh/moon
+            twitter: https://twitter.com/moon_js
+          - name: NativeScript
+            description: Build truly native apps for iOS and Android using JavaScript.
+            homepage_url: https://nativescript.org/
+            logo: nativescript.svg
+            repo_url: https://github.com/NativeScript/NativeScript
+            twitter: https://twitter.com/nativescript
       - name: UI Libraries
         items:
           - name: Alpine.js
@@ -325,6 +367,86 @@ categories:
             logo: highcharts.svg
             repo_url: https://github.com/highcharts/highcharts
             twitter: https://twitter.com/Highcharts
+      - name: State Management
+        items:
+          - name: Immer
+            description: A tiny package that allows you to work with immutable state in a more convenient way.
+            homepage_url: https://immerjs.github.io/immer/
+            logo: immer.svg
+            repo_url: https://github.com/immerjs/immer
+            twitter:
+          - name: Immutable.js
+            description: Immutable persistent data collections for Javascript which increase efficiency and simplicity.
+            homepage_url: https://immutable-js.com/
+            logo: immutable.svg
+            repo_url: https://github.com/immutable-js/immutable-js
+            twitter:
+
+      - name: UI Libraries
+        items:
+          - name: jQuery Mobile
+            description: A touch-optimized web framework for smartphones and tablets.
+            homepage_url: https://jquerymobile.com/
+            logo: jquery-mobile.svg
+            repo_url: https://github.com/jquery/jquery-mobile
+            twitter: https://twitter.com/jquerymobile
+          - name: jQuery
+            description: A fast, small, and feature-rich JavaScript library.
+            homepage_url: https://jquery.com/
+            logo: jquery.svg
+            repo_url: https://github.com/jquery/jquery
+            twitter: https://twitter.com/jquery
+          - name: Knockout
+            description: A JavaScript library that helps you to create rich, responsive display and editor user interfaces with a clean underlying data model.
+            homepage_url: https://knockoutjs.com/
+            logo: knockout.svg
+            repo_url: https://github.com/knockout/knockout
+            twitter: https://twitter.com/knockoutjs
+
+      - name: CDN
+        items:
+          - name: jsDelivr
+            description: A free CDN for open source projects.
+            homepage_url: https://www.jsdelivr.com/
+            logo: jsdelivr.svg
+            repo_url: https://github.com/jsdelivr/jsdelivr
+            twitter: https://twitter.com/jsDelivr
+
+      - name: Query Builder
+        items:
+          - name: Knex.js
+            description: A SQL query builder for PostgreSQL, MySQL, CockroachDB, MSSQL, SQLite3, and Oracle.
+            homepage_url: https://knexjs.org/
+            logo: knex.svg
+            repo_url: https://github.com/knex/knex
+            twitter:
+
+      - name: API Gateway
+        items:
+          - name: Kong
+            description: The cloud-native API gateway.
+            homepage_url: https://konghq.com/
+            logo: kong-icon.svg
+            repo_url: https://github.com/Kong/kong
+            twitter: https://twitter.com/thekonginc
+
+      - name: Mapping
+        items:
+          - name: Leaflet
+            description: An open-source JavaScript library for mobile-friendly interactive maps.
+            homepage_url: https://leafletjs.com/
+            logo: leaflet.svg
+            repo_url: https://github.com/Leaflet/Leaflet
+            twitter: https://twitter.com/LeafletJS
+
+      - name: Text Editor
+        items:
+          - name: Lexical
+            description: An extensible text editor framework that provides excellent reliability, accessibility, and performance.
+            homepage_url: https://lexical.dev/
+            logo: lexical.svg
+            repo_url: https://github.com/facebook/lexical
+            twitter:
   - name: Web3
     subcategories:
       - name: Libraries
