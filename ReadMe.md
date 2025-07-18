@@ -29,7 +29,7 @@ npm install -g landscape2
 ### 3. Build the Landscape
 
 ```sh
-landscape2 build --data-file data.yml --settings-file settings.yml --logos-path logos --output-dir build
+landscape2 build --data-file data.yml --settings-file settings.yml --logos-path logos --cache-dir cache --output-dir build
 ```
 
 ### 4. Serve Locally
@@ -59,7 +59,7 @@ To enable GitHub repo stats (stars, contributors, etc.), set a GitHub token:
 
 **PowerShell (temporary):**
 ```powershell
-$env:GITHUB_TOKEN = "your_token_here"
+$env:GITHUB_TOKENS = "your_token_here"
 landscape2 build --data-file data.yml --settings-file settings.yml --logos-path logos --output-dir build
 ```
 
@@ -67,12 +67,12 @@ landscape2 build --data-file data.yml --settings-file settings.yml --logos-path 
 ```powershell
 notepad $PROFILE
 # Add this line:
-$env:GITHUB_TOKEN = "your_token_here"
+$env:GITHUB_TOKENS = "your_token_here"
 ```
 
 **Linux/macOS:**
 ```sh
-export GITHUB_TOKEN=your_token_here
+export GITHUB_TOKENS=your_token_here
 landscape2 build --data-file data.yml --settings-file settings.yml --logos-path logos --output-dir build
 ```
 
