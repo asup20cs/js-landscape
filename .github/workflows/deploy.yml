@@ -7,7 +7,7 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.GH_FETCH_TOKEN }}
+      GITHUB_TOKENS: ${{ secrets.GH_FETCH_TOKEN }}
 
     steps:
       - name: Checkout repository
