@@ -53,6 +53,12 @@ See [landscape2 docs](https://github.com/cncf/landscape2/tree/main/docs/config) 
 
 ---
 
+## 🙏 Thanks
+
+Special thanks to [gilbarbara/logos](https://github.com/gilbarbara/logos) for providing many of the SVG logos used in this project.
+
+---
+
 ## 🔑 GitHub Integration
 
 To enable GitHub repo stats (stars, contributors, etc.), set a GitHub token:
